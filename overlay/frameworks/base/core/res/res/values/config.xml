@@ -267,6 +267,11 @@
     <!-- Boolean to enable stylus gestures -->
    <!-- <bool name="config_stylusGestures">true</bool> -->
 
+   <!-- Maximum number of supported users -->
+   <integer name="config_multiuserMaximumUsers">4</integer>
+   <!-- Whether Multiuser UI should be shown -->
+   <bool name="config_enableMultiUserUI">true</bool>
+
     <!-- Performance profiles -->
    <!-- <string name="config_perf_profile_prop">sys.perf.profile</string>
     <string name="config_perf_profile_default_entry">1</string> -->
@@ -290,5 +295,6 @@
         <item>960</item>
         <item>1050</item>
     </integer-array> -->
+
 
 </resources>
