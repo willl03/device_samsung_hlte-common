@@ -38,3 +38,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
     wifi.supplicant_scan_interval=15
+
+# Radio
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.ril.telephony.mqanelements=6 \
+	ro.telephony.ril_class=HlteRIL

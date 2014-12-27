@@ -53,6 +53,9 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 TARGET_PROVIDES_CAMERA_HAL := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 
+# Ril
+BOARD_RIL_CLASS := ../../../device/samsung/hlte-common/ril
+
 # Graphics
 TARGET_HAVE_NEW_GRALLOC := true
 BOARD_USES_LEGACY_MMAP := true
