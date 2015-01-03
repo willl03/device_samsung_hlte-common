@@ -240,7 +240,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareKeys">71</integer>
+    <integer name="config_deviceHardwareKeys">7</integer>
 
     <!-- Hardware keys present on the device with the ability to wake, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
@@ -254,7 +254,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">65</integer>
+    <!-- <integer name="config_deviceHardwareWakeKeys">65</integer> -->
 
     <!-- Configure mobile tcp buffer sizes in the form:
          rat-name:rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max
@@ -288,8 +288,8 @@
    <!-- <bool name="config_stylusGestures">true</bool> --> 
 
     <!-- Performance profiles -->
-    <string name="config_perf_profile_prop">sys.perf.profile</string>
-    <string name="config_perf_profile_default_entry">1</string>
+   <!-- <string name="config_perf_profile_prop">sys.perf.profile</string>
+    <string name="config_perf_profile_default_entry">1</string> --> 
 
     <!-- Indicate whether closing the lid causes the device to go to sleep and opening
          it causes the device to wake up.
